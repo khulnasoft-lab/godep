@@ -23,7 +23,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/google/safehtml/template"
-	"golang.org/x/net/html"
+	"github.com/khulnasoft-lab/godep/net/html"
 	"github.com/khulnasoft-lab/godep/internal/godoc/dochtml/internal/render"
 	"github.com/khulnasoft-lab/godep/internal/testing/testhelper"
 )

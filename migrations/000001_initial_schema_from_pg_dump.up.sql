@@ -292,9 +292,9 @@ CREATE TABLE search_documents (
 COMMENT ON TABLE search_documents IS
 'TABLE search_documents contains a record for the latest version of each package. It is used to generate search results.';
 COMMENT ON COLUMN search_documents.hll_register IS
-'hll_* columns are added to help implement cardinality estimation using the hyperloglog algorithm. hll_register is the randomized bucket for this record.';
+'hll_* columns are added to help implement cardinality estimation using the hyperlologger algorithm. hll_register is the randomized bucket for this record.';
 COMMENT ON COLUMN search_documents.hll_leading_zeros IS
-'hll_* columns are added to help implement cardinality estimation using the hyperloglog algorithm. hll_leading_zeros is the number of leading zeros in the binary representation of hll_hash(package_path).';
+'hll_* columns are added to help implement cardinality estimation using the hyperlologger algorithm. hll_leading_zeros is the number of leading zeros in the binary representation of hll_hash(package_path).';
 COMMENT ON COLUMN search_documents.has_go_mod IS
 'COLUMN has_go_mod records whether the module zip contains a go.mod file.';
 
@@ -304,7 +304,7 @@ COMMENT ON INDEX idx_imported_by_count_desc IS
 
 CREATE INDEX idx_hll_register_leading_zeros ON search_documents (hll_register, hll_leading_zeros DESC);
 COMMENT ON INDEX idx_hll_register_leading_zeros IS
-'INDEX idx_hll_register_leading_zeros allows us to quickly find the maximum number of leading zeros among search documents in each register matching a query, which is necessary for hyperloglog cardinality estimation.';
+'INDEX idx_hll_register_leading_zeros allows us to quickly find the maximum number of leading zeros among search documents in each register matching a query, which is necessary for hyperlologger cardinality estimation.';
 
 CREATE INDEX idx_search_documents_imported_by_count_updated_at ON search_documents (imported_by_count_updated_at);
 COMMENT ON INDEX idx_search_documents_imported_by_count_updated_at IS
@@ -357,7 +357,7 @@ CREATE FUNCTION hll_hash(text) RETURNS bigint
 	SELECT ('x'||substr(md5($1),1,16))::BIT(64)::BIGINT;
 $_$;
 COMMENT ON FUNCTION hll_hash IS
-'FUNCTION hll_hash is a 64-bit integral hash function, which is used in implementing the hyperloglog cardinality estimation algorithm.';
+'FUNCTION hll_hash is a 64-bit integral hash function, which is used in implementing the hyperlologger cardinality estimation algorithm.';
 
 CREATE FUNCTION hll_zeros(bigint) RETURNS integer
     LANGUAGE plpgsql PARALLEL SAFE

@@ -15,10 +15,10 @@ https://github.com/go-openapi/spec.
 Copyright 2015 go-swagger maintainers.  
 Apache 2 license (https://github.com/go-openapi/spec/blob/master/LICENSE ).  
 
-Glog.  
-https://github.com/golang/glog.  
+Logger.  
+https://github.com/khulnasoft-lab/godep/logger.  
 Copyright 2013 Google Inc. All Rights Reserved.  
-Apache 2 license (https://github.com/golang/glog/blob/master/LICENSE ).  
+Apache 2 license (https://github.com/khulnasoft-lab/godep/logger/blob/master/LICENSE ).  
 
 Prometheus Go Client Library.  
 https://github.com/prometheus/client_golang.  

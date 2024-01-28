@@ -506,10 +506,10 @@ https://github.com/gogo/protobuf
 Copyright (c) 2013, The GoGo Authors. All rights reserved.
 3 clause BSD license https://github.com/gogo/protobuf/blob/master/LICENSE
 
-glog - Leveled execution logs for Go
-https://github.com/golang/glog
+logger - Leveled execution logs for Go
+https://github.com/khulnasoft-lab/godep/logger
 Copyright 2013 Google Inc. All Rights Reserved.
-Apache 2 license https://github.com/golang/glog/blob/master/LICENSE
+Apache 2 license https://github.com/khulnasoft-lab/godep/logger/blob/master/LICENSE
 
 groupcache - groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
 https://github.com/golang/groupcache

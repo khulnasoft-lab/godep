@@ -18,7 +18,7 @@ var allowedModDeps = map[string]bool{
 	"github.com/google/licensecheck": true,
 	"github.com/google/safehtml":     true,
 	"golang.org/x/mod":               true,
-	"golang.org/x/net":               true,
+	"github.com/khulnasoft-lab/godep/net":               true,
 	"github.com/khulnasoft-lab/godep":           true,
 	"golang.org/x/sync":              true,
 	"golang.org/x/text":              true,

@@ -31,7 +31,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/net/context/ctxhttp"
+	"github.com/khulnasoft-lab/godep/net/context/ctxhttp"
 	"github.com/khulnasoft-lab/godep/internal/derrors"
 	"github.com/khulnasoft-lab/godep/internal/log"
 	"github.com/khulnasoft-lab/godep/internal/stdlib"

@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"strings"
 
-	"golang.org/x/net/html"
+	"github.com/khulnasoft-lab/godep/net/html"
 )
 
 func dumpHTML(n *html.Node, level int) string {

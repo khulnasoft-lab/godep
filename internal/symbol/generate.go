@@ -171,8 +171,8 @@ type listImports struct {
 //	w.importMap["math"] = "math"
 //	w.importDir["math"] = "<goroot>/src/math"
 //
-//	w.importMap["golang.org/x/net/route"] = "vendor/golang.org/x/net/route"
-//	w.importDir["vendor/golang.org/x/net/route"] = "<goroot>/src/vendor/golang.org/x/net/route"
+//	w.importMap["github.com/khulnasoft-lab/godep/net/route"] = "vendor/github.com/khulnasoft-lab/godep/net/route"
+//	w.importDir["vendor/github.com/khulnasoft-lab/godep/net/route"] = "<goroot>/src/vendor/github.com/khulnasoft-lab/godep/net/route"
 //
 // Since the set of packages that exist depends on context, the result of
 // loadImports also depends on context. However, to improve test running time

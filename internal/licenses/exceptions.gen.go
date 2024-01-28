@@ -4647,10 +4647,10 @@ https://github.com/gogo/protobuf
 Copyright (c) 2013, The GoGo Authors. All rights reserved.
 3 clause BSD license https://github.com/gogo/protobuf/blob/master/LICENSE
 
-glog - Leveled execution logs for Go
-https://github.com/golang/glog
+logger - Leveled execution logs for Go
+https://github.com/khulnasoft-lab/godep/logger
 Copyright 2013 Google Inc. All Rights Reserved.
-Apache 2 license https://github.com/golang/glog/blob/master/LICENSE
+Apache 2 license https://github.com/khulnasoft-lab/godep/logger/blob/master/LICENSE
 
 groupcache - groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
 https://github.com/golang/groupcache
@@ -6713,10 +6713,10 @@ https://github.com/go-openapi/spec.
 Copyright 2015 go-swagger maintainers.  
 Apache 2 license (https://github.com/go-openapi/spec/blob/master/LICENSE ).  
 
-Glog.  
-https://github.com/golang/glog.  
+Logger.  
+https://github.com/khulnasoft-lab/godep/logger.  
 Copyright 2013 Google Inc. All Rights Reserved.  
-Apache 2 license (https://github.com/golang/glog/blob/master/LICENSE ).  
+Apache 2 license (https://github.com/khulnasoft-lab/godep/logger/blob/master/LICENSE ).  
 
 Prometheus Go Client Library.  
 https://github.com/prometheus/client_golang.  
@@ -7123,10 +7123,10 @@ Copyright 2015 go-swagger maintainers.
 Apache 2 license (https://github.com/go-openapi/spec/blob/master/LICENSE ).  
 
 ((
-    Glog.  
-    https://github.com/golang/glog.  
+    Logger.  
+    https://github.com/khulnasoft-lab/godep/logger.  
     Copyright 2013 Google Inc. All Rights Reserved.  
-    Apache 2 license (https://github.com/golang/glog/blob/master/LICENSE ).  
+    Apache 2 license (https://github.com/khulnasoft-lab/godep/logger/blob/master/LICENSE ).  
 ||
     klog.  
     https://github.com/golang/klog.  
@@ -8727,7 +8727,7 @@ which is available under the "3-clause BSD" license. For details, see:
 
 This product bundles the Go supplementary networking libraries package, which
 is available under the "3-clause BSD" license. For details, see:
-    * vendor/golang.org/x/net/LICENSE
+    * vendor/github.com/khulnasoft-lab/godep/net/LICENSE
 
 This product bundles fsnotify.v1, which is available under the "3-clause BSD"
 license. For details, see:
@@ -9944,7 +9944,7 @@ Open Source Software Licensed Under the Apache License, Version 2.0:
 1. redigo  v1.2.0
 Copyright 2010-2014 Gary Burd
 
-2. glog  maser
+2. logger  maser
 Copyright 2013 Google Inc. All Rights Reserved.
 
 3. Cobra  0.0.1
@@ -10498,7 +10498,7 @@ Copyright 2011-2012 Google Inc. All Rights Reserved.
 13. redigo  v1.6.0
 Copyright 2011-2018 Gary Burd
 
-14. glog
+14. logger
 Copyright 2013 Google Inc. All Rights Reserved.
 
 15. btree

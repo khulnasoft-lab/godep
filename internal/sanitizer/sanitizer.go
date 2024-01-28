@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"strings"
 
-	"golang.org/x/net/html"
+	"github.com/khulnasoft-lab/godep/net/html"
 )
 
 // SanitizeBytes returns a sanitized version of the input.

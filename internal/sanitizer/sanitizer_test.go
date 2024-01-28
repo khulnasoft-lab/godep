@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"golang.org/x/net/html"
+	"github.com/khulnasoft-lab/godep/net/html"
 )
 
 func TestSanitizeBytes(t *testing.T) {

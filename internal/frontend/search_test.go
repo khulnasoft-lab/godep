@@ -115,7 +115,7 @@ func TestDetermineSearchAction(t *testing.T) {
 		},
 		{
 			name:         "vuln module path",
-			query:        "q=golang.org/x/net&m=vuln",
+			query:        "q=github.com/khulnasoft-lab/godep/net&m=vuln",
 			wantTemplate: "vuln/list",
 		},
 		{

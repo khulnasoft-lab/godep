@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/net/html"
-	"golang.org/x/net/html/atom"
+	"github.com/khulnasoft-lab/godep/net/html"
+	"github.com/khulnasoft-lab/godep/net/html/atom"
 )
 
 func TestDumpHTML(t *testing.T) {

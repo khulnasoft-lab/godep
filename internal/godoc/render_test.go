@@ -12,7 +12,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/safehtml/template"
-	"golang.org/x/net/html"
+	"github.com/khulnasoft-lab/godep/net/html"
 	"github.com/khulnasoft-lab/godep/internal"
 	"github.com/khulnasoft-lab/godep/internal/godoc/dochtml"
 	"github.com/khulnasoft-lab/godep/internal/source"

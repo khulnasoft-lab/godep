@@ -15,7 +15,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.org/x/net/html"
+	"github.com/khulnasoft-lab/godep/net/html"
 	"github.com/khulnasoft-lab/godep/internal/proxy/proxytest"
 	"github.com/khulnasoft-lab/godep/internal/testenv"
 	"github.com/khulnasoft-lab/godep/internal/testing/htmlcheck"

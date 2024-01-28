@@ -15,7 +15,4 @@
 	url = https://github.com/golang/geo
 [submodule "logs"]
 	path = logs
-	url = https://github.com/golang/glog
-[submodule "website"]
-	path = website
-	url = https://github.com/golang/website
+	url = https://github.com/khulnasoft-lab/godep/logger

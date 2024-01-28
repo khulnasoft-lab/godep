@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"golang.org/x/net/html"
-	"golang.org/x/net/html/atom"
+	"github.com/khulnasoft-lab/godep/net/html"
+	"github.com/khulnasoft-lab/godep/net/html/atom"
 	"github.com/khulnasoft-lab/godep/internal"
 	"github.com/khulnasoft-lab/godep/internal/derrors"
 	"github.com/khulnasoft-lab/godep/internal/source"

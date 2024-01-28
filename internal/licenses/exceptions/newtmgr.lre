@@ -42,7 +42,7 @@ which is available under the "3-clause BSD" license. For details, see:
 
 This product bundles the Go supplementary networking libraries package, which
 is available under the "3-clause BSD" license. For details, see:
-    * vendor/golang.org/x/net/LICENSE
+    * vendor/github.com/khulnasoft-lab/godep/net/LICENSE
 
 This product bundles fsnotify.v1, which is available under the "3-clause BSD"
 license. For details, see:

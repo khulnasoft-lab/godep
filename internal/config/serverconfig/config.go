@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"cloud.google.com/go/storage"
-	"golang.org/x/net/context/ctxhttp"
+	"github.com/khulnasoft-lab/godep/net/context/ctxhttp"
 	"github.com/khulnasoft-lab/godep/internal/config"
 	"github.com/khulnasoft-lab/godep/internal/derrors"
 	"github.com/khulnasoft-lab/godep/internal/log"

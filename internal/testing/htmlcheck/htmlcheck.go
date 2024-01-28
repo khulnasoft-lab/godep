@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"strings"
 
-	"golang.org/x/net/html"
+	"github.com/khulnasoft-lab/godep/net/html"
 )
 
 // A Checker is a function from an HTML node to an error describing a failure.

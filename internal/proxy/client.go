@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"golang.org/x/mod/module"
-	"golang.org/x/net/context/ctxhttp"
+	"github.com/khulnasoft-lab/godep/net/context/ctxhttp"
 	"github.com/khulnasoft-lab/godep/internal/derrors"
 	"github.com/khulnasoft-lab/godep/internal/version"
 )

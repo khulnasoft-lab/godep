@@ -11,7 +11,7 @@ require (
 	cloud.google.com/go/storage v1.36.0
 	contrib.go.opencensus.io/exporter/prometheus v0.1.0
 	contrib.go.opencensus.io/exporter/stackdriver v0.13.14
-	contrib.go.opencensus.io/integrations/ocsql v0.1.4
+	contrib.go.opencensus.io/integrations/ocsql v0.1.7
 	github.com/Masterminds/squirrel v1.5.4
 	github.com/alicebob/miniredis/v2 v2.17.0
 	github.com/evanw/esbuild v0.17.8

@@ -15,7 +15,7 @@ require (
 	github.com/Masterminds/squirrel v1.5.2
 	github.com/alicebob/miniredis/v2 v2.17.0
 	github.com/evanw/esbuild v0.17.8
-	github.com/go-redis/redis/v8 v8.11.4
+	github.com/go-redis/redis/v8 v8.11.5
 	github.com/go-redis/redis_rate/v9 v9.1.2
 	github.com/golang-migrate/migrate/v4 v4.15.1
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da

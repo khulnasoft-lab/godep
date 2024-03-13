@@ -38,7 +38,7 @@ require (
 	google.golang.org/api v0.162.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20240221002015-b0ce06bbee7c
 	google.golang.org/grpc v1.61.1
-	google.golang.org/protobuf v1.32.0
+	google.golang.org/protobuf v1.33.0
 	gopkg.in/yaml.v3 v3.0.1
 	rsc.io/markdown v0.0.0-20240117044121-669d2fdf1650
 )
